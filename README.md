@@ -5,7 +5,7 @@ You will be guided through installing Node.js on your computer, creating a webse
 
 ## Installing Node.js
 
-First of all you need to download and install [Node.js](https://nodejs.org/en/) (download the version with the LTS prefix (LTS = Long Term Support)). The Installations is pretty straight forward, but if you need it, guides kan be found here:
+First of all you need to download and install [Node.js](https://nodejs.org/en/) _(download the version with the LTS prefix (LTS = Long Term Support))_. The Installations is pretty straight forward, but if you need it, guides kan be found here:
 
 * [Installing Node.js on a Mac](https://www.lynda.com/MyPlaylist/Watch/5464398/110731?autoplay=true)
 * [Installing Node.js on Windows](https://www.lynda.com/MyPlaylist/Watch/5464398/110731?autoplay=true)
