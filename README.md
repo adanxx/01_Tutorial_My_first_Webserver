@@ -70,11 +70,16 @@ Change the 2 lines in your webserver code to:
 
 ```
 
-Then stop you server by in the console typing ``` ctrl + c ``` and the starting it again by typing:
+Then stop you server by typing ``` ctrl + c ``` and the starting it again by in the console typing:
 
 ```javascript   
    node server.js   
 ``` 
+Now you should see something like this instead.
+
+
+<img src="/img/iphone.png" width="400" >
+<img src="/img/iphone.png" width="400" >
 
 ## JSON
 
