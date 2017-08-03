@@ -70,7 +70,7 @@ Change the 2 lines in your webserver code to:
 
 ```
 
-Then stop you server by typing ``` ctrl + c ``` and the starting it again by in the console typing:
+Then stop you server by typing ``` ctrl + c ``` and start it again by in the console typing:
 
 ```javascript   
       node server.js   
@@ -79,17 +79,37 @@ Now you should see something like this instead.
 
 <img src="/img/htmlscreen.png" width="400" >
 
-xxx
-
 ## JSON
 
 Now stop the server by typing ``` ctrl + c ```.
 
-Another way of outputting data on a webserver is by serving the data in JSON format.     
+Another way of outputting data from a webserver is by serving the data in JSON format.
+When we do this it is called a web api. 
 
-The aproach we will take in this elective is to create an API.
+```prettyprint javascript
+      {
+        "title" : "Hello World",
+        "Text" : "This is my first web api"
+      }
+```
 
-TOdo: write tutorial
+Change the 2 lines in the code to:
+
+```prettyprint javascript
+
+      res.writeHead(200, {'Content-Type': 'text/json'});
+      res.end('{
+          "title" : "Hello World",
+          "Text" : "This is my first web api"
+      }');
+
+```
+Start the server again
+
+```javascript   
+      node server.js   
+``` 
+Then you should see this in your browser
 
 <img src="/img/jsonscreen.png" width="400" >
 
