@@ -77,11 +77,15 @@ Then stop you server by typing ``` ctrl + c ``` and the starting it again by in 
 ``` 
 Now you should see something like this instead.
 
+<img src="/img/htmlscreen.png" width="400" >
 
-<img src="/img/htmlscreen_.png" width="400" >
-
+xxx
 
 ## JSON
+
+Now stop the server by typing ``` ctrl + c ```.
+
+Another way of outputting data on a webserver is by serving the data in JSON format.     
 
 The aproach we will take in this elective is to create an API.
 
