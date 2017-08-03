@@ -79,9 +79,6 @@ Now you should see something like this instead.
 <img src="/img/htmlscreen.png" width="400" >
 
 ## JSON
-
-Now stop the server by typing ``` ctrl + c ```.
-
 Another way of outputting data from a webserver is by serving the data in JSON format.
 When we do this it is called a web api. 
 
@@ -91,6 +88,8 @@ When we do this it is called a web api.
         "Text" : "This is my first web api"
       }
 ```
+
+Now stop the server by typing ``` ctrl + c ```.
 
 Change the 2 lines in the code to:
 
@@ -114,6 +113,16 @@ Then you should see this in your browser
 
 
 ## Deploy to an online host
+
+So far everything has been going on on your local computer.    
+
+In order to make our new website realy useful, we need to making it accessable to the rest of the world.    
+
+### Heroku
+
+Create an account at [Heroku] (www.heroku.com)
+
+
 
 TODO: write tutorial
 
