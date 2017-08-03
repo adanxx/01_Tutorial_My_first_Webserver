@@ -54,13 +54,27 @@ Get the ip-address of you machine (the server) and then make sure that your phon
 <img src="/img/iphone.png" width="400" >
 
 
-Hopefully you see this, otherwise: “are your devices on the same network” ?
+Hopefully you see this, otherwise check if your devices are on the same network.
 
 ## HTML 
 
-If we go one step further we can show a html page instead of the simple text page above.    
+Normally a webpage is presented a bit more detailed than the plain text file with "Hello world".
+Instead of plain text we can formate the output in html instead. This makes us able to structure our content and to add collors and other design. xxxxxxx
 
-TODO: write tutorial    
+Change the 2 lines in your webserver code to:
+
+```prettyprint javascript
+
+      res.writeHead(200, {'Content-Type': 'text/html'});
+      res.end('<h1>Hello World</h1><p>This is my first html page</p>');
+
+```
+
+Then stop you server by in the console typing ``` ctrl + c ``` and the starting it again by typing:
+
+```javascript   
+   node server.js   
+``` 
 
 ## JSON
 
