@@ -86,7 +86,7 @@ Now stop the server by typing ``` ctrl + c ```.
 Another way of outputting data from a webserver is by serving the data in JSON format.
 When we do this it is called a web api. 
 
-```prettyprint javascript
+```prettyprint JSON
       {
         "title" : "Hello World",
         "Text" : "This is my first web api"
