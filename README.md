@@ -59,7 +59,7 @@ Hopefully you see this, otherwise check if your devices are on the same network.
 ## HTML 
 
 Normally a webpage is presented a bit more detailed than the plain text file with "Hello world".
-Instead of plain text we can formate the output in html instead. This makes us able to structure our content and to add collors and other design. xxxxxxx
+Instead of plain text we can formate the output in html instead. This makes us able to structure our content and to add collors and other design elements.
 
 Change the 2 lines in your webserver code to:
 
@@ -69,7 +69,6 @@ Change the 2 lines in your webserver code to:
       res.end('<h1>Hello World</h1><p>This is my first html page</p>');
 
 ```
-
 Then stop you server by typing ``` ctrl + c ``` and start it again by in the console typing:
 
 ```javascript   
