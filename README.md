@@ -78,7 +78,7 @@ Then stop you server by typing ``` ctrl + c ``` and the starting it again by in 
 Now you should see something like this instead.
 
 
-<img src="/img/htmlscreen.png" width="400" >
+<img src="/img/htmlscreen_.png" width="400" >
 
 
 ## JSON
