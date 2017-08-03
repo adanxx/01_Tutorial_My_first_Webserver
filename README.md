@@ -78,7 +78,7 @@ Then stop you server by typing ``` ctrl + c ``` and the starting it again by in 
 Now you should see something like this instead.
 
 
-<img src="/img/htmlscreen.PNG" width="400" >
+<img src="/img/htmlscreen.png" width="400" >
 
 
 ## JSON
@@ -86,6 +86,8 @@ Now you should see something like this instead.
 The aproach we will take in this elective is to create an API.
 
 TOdo: write tutorial
+
+<img src="/img/jsonscreen.png" width="400" >
 
 
 ## Deploy to an online host
