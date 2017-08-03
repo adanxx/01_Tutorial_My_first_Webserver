@@ -122,6 +122,23 @@ In order to make our new website realy useful, we need to making it accessable t
 
 Create an account at [Heroku](https://www.heroku.com/)
 
+Create a new app.    
+
+### Github
+
+Create a [Github](https://github.com/) account and create a new repository and call it firstwebserver.
+
+In the folder on your computer create a file and call it **Procfile** (spell it exatly like this and don´t put any extension).    
+
+add this to the file
+
+``javascript   
+      web: node server.js   
+```
+Push your _server.js_ file and the _Procfile_ to your github repository.
+
+add 
+
 
 
 TODO: write tutorial
