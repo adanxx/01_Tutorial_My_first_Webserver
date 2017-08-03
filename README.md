@@ -120,7 +120,7 @@ In order to make our new website realy useful, we need to making it accessable t
 
 ### Heroku
 
-Create an account at [Heroku] (www.heroku.com)
+Create an account at [Heroku](www.heroku.com)
 
 
 
