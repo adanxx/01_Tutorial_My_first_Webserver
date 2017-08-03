@@ -132,13 +132,10 @@ In the folder on your computer create a file and call it **Procfile** (spell it 
 
 add this to the file
 
-``javascript   
+```javascript   
       web: node server.js   
 ```
 Push your _server.js_ file and the _Procfile_ to your github repository.
-
-add 
-
 
 
 TODO: write tutorial
