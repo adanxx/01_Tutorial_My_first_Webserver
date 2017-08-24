@@ -141,9 +141,9 @@ Push your _server.js_ file and the _Procfile_ to your github repository.
 TODO: write tutorial
 
 
-## Create a simple frontend JQuery app
+## Connect a simple frontend HTML and JQuery app to the API
 
-TODO: write tutorial
+Use this [index.html]() file to connect to the API
 
 
  ___ 
