@@ -137,8 +137,10 @@ add this to the file
 ```
 Push your _server.js_ file and the _Procfile_ to your github repository.
 
+## Exercise: Deploy the site to heroku
+TODO: write tutorial    
+Please help. Fork this repository, Write the tutorial and create a pull request.
 
-TODO: write tutorial
 
 
 ## Connect a simple frontend HTML and JQuery app to the API
