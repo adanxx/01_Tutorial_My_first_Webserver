@@ -147,6 +147,8 @@ Please help. Fork this repository, Write the tutorial and create a pull request.
 
 Use this [index.html](https://github.com/ElectiveNodejs/01_Tutorial_My_first_Webserver/blob/master/htmlfile/index.html) file to connect to the API.    
 
+You should just run the file on your computer.    
+
 If you are on your local computer  it should work without any changes.    
 If your API is on Heroku, you should change the URL in the index.html file to the URL of you API.
 
