@@ -145,7 +145,18 @@ Please help. Fork this repository, Write the tutorial and create a pull request.
 
 ## Connect a simple frontend HTML and JQuery app to the API
 
-Use this [index.html]() file to connect to the API
+Use this [index.html](https://github.com/ElectiveNodejs/01_Tutorial_My_first_Webserver/blob/master/htmlfile/index.html) file to connect to the API.    
+
+If you are on your local computer  it should work without any changes.    
+If your API is on Heroku, you should change the URL in the index.html file to the URL of you API.
+
+````   
+
+ $.getJSON("http://localhost:3003/", function (data) {
+
+````   
+
+
 
 
  ___ 
