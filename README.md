@@ -147,6 +147,21 @@ Please help. Fork this repository, Write the tutorial and create a pull request.
 
 Use this [index.html](https://github.com/ElectiveNodejs/01_Tutorial_My_first_Webserver/blob/master/htmlfile/index.html) file to connect to the API.    
 
+In order to do so, you will need to put in an extra line in the server.js file
+
+````prettyprint javascript  
+      
+      res.setHeader('Access-Control-Allow-Origin', '*');
+      
+      res.writeHead(200, {'Content-Type': 'text/json'});
+      res.end('{
+          "title" : "Hello World",
+          "Text" : "This is my first web api"
+      }');
+
+````   
+
+
 You should just run the file on your computer.    
 
 If you are on your local computer  it should work without any changes.    
