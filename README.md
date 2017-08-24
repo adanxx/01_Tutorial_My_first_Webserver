@@ -164,7 +164,7 @@ In order to do so, you will need to put in an extra line in the server.js file
 
 You should just run the file on your computer.    
 
-If you are on your local computer  it should work without any changes.    
+If your API is on your local computer it should work without any changes.    
 If your API is on Heroku, you should change the URL in the index.html file to the URL of you API.
 
 ````   
