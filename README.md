@@ -146,7 +146,6 @@ Push your _server.js_ file and the _Procfile_ to your github repository.
 5. Search for your app repository and select it.
 6. Scroll down the page until you see the "Manual deploy" option
 7. Select the master branch and click "Deploy Branch"
-8. Profit?!?!?!?!?
 
 
 ## Connect a simple frontend HTML and JQuery app to the API
