@@ -138,9 +138,15 @@ add this to the file
 Push your _server.js_ file and the _Procfile_ to your github repository.
 
 ## Exercise: Deploy the site to heroku
-TODO: write tutorial    
-Please help. Fork this repository, Write the tutorial and create a pull request.
 
+1. Go to your Heroku dashboard which can be found [here](https://dashboard.heroku.com)
+2. Click on the app you created earlier.
+3. At "Deployment method" select GitHub, and click on the Connect to GitHub button.
+4. Allow Heroku access to your GitHub account.
+5. Search for your app repository and select it.
+6. Scroll down the page until you see the "Manual deploy" option
+7. Select the master branch and click "Deploy Branch"
+8. Profit?!?!?!?!?
 
 
 ## Connect a simple frontend HTML and JQuery app to the API
